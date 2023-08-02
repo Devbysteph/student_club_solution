@@ -1,4 +1,6 @@
 # Overview of the solution
+
+### Problem Statement
 Student Clubs and organizations are currently facing challenges in efficiently managing the process of issuing identification cards(ID Card) to their members. The current process is manual, time-consuming, and requires physical presence, which can be inconvenient for both the club as well as its members. As a result, clubs are looking for a solution that can automate the process of issuing Identification cards and make it more seamless for their members.
 
 This solution aims to address these challenges by automating the process of issuing identity cards to club members. This would eliminate the need for physical presence and make the process more seamless and convenient for members. This solution utilizes Microsoft Power Platform.
