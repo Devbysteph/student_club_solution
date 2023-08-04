@@ -67,7 +67,7 @@ In addition to the above columns, we define one more column named "PhotoUploaded
 
 **Now it's time to start developing an interface for our solution!🎉**
 
-The first file named [PowerVirtualAgent.md] elaborates the steps involved in creating for PVA chatbot. The second file named 'Storing details" outlines steps needed to store the details from chatbot to shsrepoint list using power automate. The last file named 'idCardGeneraation.md' outlines the steps to design the power automate flow that generates ID card and send the ID card to the student over email.
+The first file named [PowerVirtualAgent.md](https://github.com/Devbysteph/student_club_solution/blob/1bee5c728ea8221daa90e0788f0831f6cec2566c/Collecting%20Students'%20Personal%20Details%20With%20PVA/PowerVirtualAgent.md) elaborates the steps involved in creating for PVA chatbot. The second file named 'Storing details" outlines steps needed to store the details from chatbot to shsrepoint list using power automate. The last file named 'idCardGeneraation.md' outlines the steps to design the power automate flow that generates ID card and send the ID card to the student over email.
 
 TIME TO BRING THIS SOLUTION TO LIFE! 💃🏾 🕺🏾 - 👩🏾‍💻 👨🏾‍💻
 
