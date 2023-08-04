@@ -1,12 +1,12 @@
 # Overview of the solution
 
 ### Problem Statement
-Student Clubs and organizations are currently facing challenges in efficiently managing the process of issuing identification cards(ID Card) to their members. The current process is manual, time-consuming, and requires physical presence, which can be inconvenient for both the club as well as its members. As a result, clubs are looking for a solution that can automate the process of issuing Identification cards and make it more seamless for their members.
+Student Clubs and organizations are currently facing challenges in efficiently managing the process of issuing identification cards(ID Cards) to their members. The current process is manual, time-consuming, and requires physical presence, which can be inconvenient for both the club as well as its members. As a result, clubs are looking for a solution that can automate the process of issuing Identification cards and make it more seamless for their members.
 
 This solution aims to address these challenges by automating the process of issuing identity cards to club members. This would eliminate the need for physical presence and make the process more seamless and convenient for members. This solution utilizes Microsoft Power Platform.
-This sample showcases how you can use a power virtual agent to collect response from students and upload them in real-time on SharePoint. From SharePoint, you can automate the creation of the ID card with power automate. 
+This sample showcases how you can use a power virtual agent to collect responses from students and upload them in real time on SharePoint. From SharePoint, you can automate the creation of the ID card with Power Automate. 
 
-In this sample, we would show you how to build a Chatbot with Power Virtual Agents, upload the response to a share Point site and generate an Identification card using ID Card Template with Power Automate. For this sample we would be using the name “Student Solution” to identify our solution. 
+In this sample, we would show you how to build a Chatbot with Power Virtual Agents, upload the response to a SharePoint site, and generate an Identification card using ID Card Template with Power Automate. For this sample we would be using the name “Student Solution” to identify our solution. 
 
 Implementing this solution could have several benefits for clubs and their members. For clubs, it would reduce the time and resources required to issue identity cards, improve data accuracy and security, and provide a more convenient and modern experience for members. For members, it would eliminate the need for physical presence, reduce wait times, and provide a more accessible and user-friendly experience.
 
@@ -40,9 +40,9 @@ There are two types of SharePoint sites:
 
 Now it's time to populate our SharePoint list with the required columns for the solution we are building. But first, let's look at what our solution would look like.
 
-In our solution, we want to store the details of the students in a sharepoint list.
+In our solution, we want to store the details of the students in a SharePoint list.
 
-So, following attributes best describe a college student willing to join a club - 
+So, the following attributes best describe a college student willing to join a club - 
 
 1.	Full Name 
 2.	Matriculation Number 
@@ -63,11 +63,11 @@ Our database has to have 6 columns for storing the data collected -
 
   ![image](https://github.com/Devbysteph/student_club_solution/assets/74033507/bdedc362-1c63-462f-bb1b-d732babf148d)
 
-In addition to the above columns, we define one more column named "PhotoUploaded" which initially contains value 'No' for every entry. More details of this column is given in idCardGeneration.md file.
+In addition to the above columns, we define one more column named "PhotoUploaded" which initially contains the value 'No' for every entry. More details of this column are given in the idCardGeneration.md file.
 
 **Now it's time to start developing an interface for our solution!🎉**
 
-The first file named [PowerVirtualAgent.md](https://github.com/Devbysteph/student_club_solution/blob/1bee5c728ea8221daa90e0788f0831f6cec2566c/Collecting%20Students'%20Personal%20Details%20With%20PVA/PowerVirtualAgent.md) elaborates the steps involved in creating for PVA chatbot. The second file named 'Storing details" outlines steps needed to store the details from chatbot to shsrepoint list using power automate. The last file named 'idCardGeneraation.md' outlines the steps to design the power automate flow that generates ID card and send the ID card to the student over email.
+The first file named [PowerVirtualAgent.md](https://github.com/Devbysteph/student_club_solution/blob/1bee5c728ea8221daa90e0788f0831f6cec2566c/Collecting%20Students'%20Personal%20Details%20With%20PVA/PowerVirtualAgent.md) elaborates the steps involved in creating for PVA chatbot. The second file named 'Storing details" outlines the steps needed to store the details from the chatbot to the SharePoint list using Power Automate. The last file named 'idCardGeneraation.md' outlines the steps to design the power automate flow that generates an ID card and sends the ID card to the student over email.
 
 TIME TO BRING THIS SOLUTION TO LIFE! 💃🏾 🕺🏾 - 👩🏾‍💻 👨🏾‍💻
 
