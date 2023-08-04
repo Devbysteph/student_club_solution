@@ -65,9 +65,9 @@ Our database has to have 6 columns for storing the data collected -
 
 In addition to the above columns, we define one more column named "PhotoUploaded" which initially contains value 'No' for every entry. More details of this column is given in idCardGeneration.md file.
 
-Now it's time to start developing an interface for our solution!
+**Now it's time to start developing an interface for our solution!🎉**
 
-The first file named 'PowerVirtualAgent.md' elaborates the steps involved in creating for PVA chatbot. The second file named 'Storing details" outlines steps needed to store the details from chatbot to shsrepoint list using power automate. The last file named 'idCardGeneraation.md' outlines the steps to design the power automate flow that generates ID card and send the ID card to the student over email.
+The first file named [PowerVirtualAgent.md] elaborates the steps involved in creating for PVA chatbot. The second file named 'Storing details" outlines steps needed to store the details from chatbot to shsrepoint list using power automate. The last file named 'idCardGeneraation.md' outlines the steps to design the power automate flow that generates ID card and send the ID card to the student over email.
 
 TIME TO BRING THIS SOLUTION TO LIFE! 💃🏾 🕺🏾 - 👩🏾‍💻 👨🏾‍💻
 
