@@ -129,10 +129,9 @@ Now we need to connect the second condition block to the first question. We do t
 You can test your bot to make sure it's working well by clicking 'Test your bot' on the left side of the page.
 
 ----------------------------------------------------------------------------
-Now we need to store details in SharePoint. For this head over to [storing details.md](https://github.com/Devbysteph/student_club_solution/blob/1bee5c728ea8221daa90e0788f0831f6cec2566c/Storing%20the%20Collected%20Students'%20Personal%20Details%20with%20Sharepoint/storing%20details.md) outlines the steps needed to store the details from the chatbot to the SharePoint list using Power Automate file.
+Now we need to store details in SharePoint. For this head over to [storing details.md](https://github.com/Devbysteph/student_club_solution/blob/1bee5c728ea8221daa90e0788f0831f6cec2566c/Storing%20the%20Collected%20Students'%20Personal%20Details%20with%20Sharepoint/storing%20details.md)
 ----------------------------------------------------------------------------
-
-
+ 
 Back to the power Virtual Agent(Chatbot) playground. Till now, we have collected all the details from the student and stored the details in the SharePoint list through Power Automate.
 
 ![image](https://github.com/Devbysteph/student_club_solution/assets/74033507/07b72a22-aa87-4498-aa77-0e458a9da57c)
