@@ -126,7 +126,7 @@ Now we need to connect the second condition block to the first question. We do t
 ![image](https://github.com/Devbysteph/student_club_solution/assets/74033507/9ff0b45a-9e59-408d-a9ea-4f703c0051b3)
 
 
-You can test your bot to make sure it's working well by clicking 'Test your bot' on the left side of the page.
+You can test your bot to ensure it's working well by clicking 'Test your bot' on the left side of the page.
 
 ----------------------------------------------------------------------------
 Now we need to store details in SharePoint. For this head over to [storing details.md](https://github.com/Devbysteph/student_club_solution/blob/1bee5c728ea8221daa90e0788f0831f6cec2566c/Storing%20the%20Collected%20Students'%20Personal%20Details%20with%20Sharepoint/storing%20details.md)
