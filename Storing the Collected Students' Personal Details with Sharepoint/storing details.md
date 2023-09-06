@@ -20,3 +20,12 @@ To add the questions as inputs, click on '+ Add an input', then 'Text'. Notice t
  
 ![image](https://github.com/Devbysteph/student_club_solution/assets/74033507/3a9d7e83-0ced-4612-8203-ec3481e8e77f)
 
+![image](https://github.com/Devbysteph/student_club_solution/assets/45470819/9e1cf8c8-40ca-4489-a591-85806dd63c54)
+
+![image](https://github.com/Devbysteph/student_club_solution/assets/45470819/ad98ff73-d3ea-4ec6-ad4d-adeefbf47e73)
+
+
+After the details have been successfully submitted in the sharepoint list, the next step is to obtain the picture of the student to generate the ID card.  
+There can be scenario where a student submits the details using the chatbot but does not submit picture. The entry for that student should be discarded. So, to handle this scenario, we have defined a time limit of 6 hours in which the student should upload his/her picture or else his/her entry will be deemed void.
+ 
+After introducing a delay of 3 hours, we check if the student has uploaded his picture or not. [This is done by adding a new column to the SharePoint list by the name - “PhotoUploaded” which holds the value “Yes” if photo is uploaded else holds the value “No”. If after 3 hours, the field contains the value “No”, a reminder email is sent to the student asking for his/her picture. The process is again repeated after 6 hours to check if photo is uploaded or not. If it is not uploaded, a final email is sent to the student that his/her entry is deleted from the database. Then, his/her details are deleted from the SharePoint list.  
